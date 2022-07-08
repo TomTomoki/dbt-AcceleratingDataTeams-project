@@ -39,3 +39,9 @@ models:
       marts:
           schema: marts
           materialized: table
+
+
+seeds:
+  dbt_workshop:
+    manual_book1:
+      schema: public
